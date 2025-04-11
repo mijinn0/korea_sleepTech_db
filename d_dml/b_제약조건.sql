@@ -178,3 +178,5 @@ create table `users` (
 -- values
 -- 	(1, '이상혁', 'faker'),
 --     (2, '이민형', 'faker');
+
+drop database if exists `example`;

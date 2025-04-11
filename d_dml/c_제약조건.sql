@@ -1,3 +1,8 @@
+drop database if exists `example`;
+create database `example`;
+
+use `example`;
+
 /*
 	4. Check 제약 조건
     : 입력되는 데이터를 점검하는 기능
@@ -80,3 +85,5 @@ create table `multiple` (
 insert into `multiple`
 values 
 	(11);
+    
+drop database if exists `example`;
