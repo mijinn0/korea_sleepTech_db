@@ -9,3 +9,5 @@ CREATE TABLE user (
     email VARCHAR(100) NOT NULL UNIQUE,
     country VARCHAR(100) NOT NULL
 );
+
+SELECT * FROM user;
