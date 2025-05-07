@@ -30,3 +30,16 @@ CREATE TABLE book (
 );
 
 SELECT * FROM book;
+SELECT * FROM book WHERE category='ESSAY';
+
+-- 2025-05-07 SpringBoot TEST 테이블 생성 --
+CREATE TABLE products (
+	id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    price DECIMAL(10, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+SELECT * FROM products;
